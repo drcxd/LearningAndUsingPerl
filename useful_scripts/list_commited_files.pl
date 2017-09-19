@@ -24,7 +24,8 @@ foreach (@version_numbers) {
     m/^r(\d+)/;
     my @single_commit_files = `svn diff -c $1 --summarize /cygdrive/d/Workspace/JiuTianSVN/client/Client/Client/proj.win32/`;
     foreach (@single_commit_files) {
-        push @commited_files, $_ unless $_ ~~ @commited_files;
+        m/^[A-Z](.*)$/;
+        push @commited_files, $1 unless $1 ~~ @commited_files;
     }
 }
 say "cutting off path...";
@@ -41,5 +42,6 @@ say "sorting file names...";
 open RESULT_FILE, '>commited_files.txt';
 say "writing result to commited_files.txt";
 foreach (@commited_files) {
+    chomp;
     say RESULT_FILE $_;
 }
