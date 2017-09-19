@@ -29,13 +29,17 @@ foreach (@version_numbers) {
 }
 say "cutting off path...";
 foreach (@commited_files) {
-    my @path_ingredient = split /\//, $_;
-    $_ = $path_ingredient[$#path_ingredient];
+    chomp;
+    # my @path_ingredient = split /\//, $_;
+    # $_ = $path_ingredient[$#path_ingredient];
+    m/\/([[:alpha:]]*\.[ch]p?p?)/;
+    die "the line uncaptured is $_" unless defined $1;
+    $_ = $1;
 }
 say "sorting file names...";
 @commited_files = sort @commited_files;
 open RESULT_FILE, '>commited_files.txt';
 say "writing result to commited_files.txt";
 foreach (@commited_files) {
-    print RESULT_FILE $_;
+    say RESULT_FILE $_;
 }
