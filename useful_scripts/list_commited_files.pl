@@ -22,10 +22,12 @@ my @version_numbers = `svn log $path | grep $user_name`;
 say "fetching commited file names...";
 foreach (@version_numbers) {
     m/^r(\d+)/;
-    my @single_commit_files = `svn diff -c $1 --summarize /cygdrive/d/Workspace/JiuTianSVN/client/Client/Client/proj.win32/`;
-    foreach (@single_commit_files) {
-        m/^[A-Z](.*)$/;
-        push @commited_files, $1 unless $1 ~~ @commited_files;
+    if (defined $1) {
+        my @single_commit_files = `svn diff -c $1 --summarize $path`;
+        foreach (@single_commit_files) {
+            m/^[A-Z](.*)$/;
+            push @commited_files, $1 unless $1 ~~ @commited_files;
+        }
     }
 }
 say "cutting off path...";
@@ -34,8 +36,8 @@ foreach (@commited_files) {
     # my @path_ingredient = split /\//, $_;
     # $_ = $path_ingredient[$#path_ingredient];
     m/\/([[:alpha:]]*\.[ch]p?p?)/;
-    die "the line uncaptured is $_" unless defined $1;
-    $_ = $1;
+    # die "the line uncaptured is $_" unless defined $1;
+    $_ = $1 if defined $1;
 }
 say "sorting file names...";
 @commited_files = sort @commited_files;
