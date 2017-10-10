@@ -19,5 +19,5 @@ foreach (@raw_input) {
     # $_ = $ingredient[$#ingredient];
     # print $_;
     chomp;
-    say $1 if m/\/([[:alpha:]]*\.[ch]p?p?)/;
+    say $1 if m/([[:alpha:]]+\.(?:cpp|h))/;
 }
