@@ -15,17 +15,20 @@ my $diff_file_name = shift @ARGV;
 my $commit_file_name = shift @ARGV;
 
 my @diff = `cat $diff_file_name`;
-my @com = `cat $commit_file_name`;
 
-my @join;
-
-foreach (@diff) {
-    if ($_ ~~ @com) {
-        push @join, $_;
+open COM, '<', $commit_file_name;
+my %time_files;
+while (<COM>) {
+    if (m/(\d+-\d+-\d+ \d+:\d+:\d+)\s*(\w+\.(:?cpp|h))/) {
+        # say "$1\t\t$2";
+        $time_files{$2} = $1;
     }
 }
 
 open JOIN, "> join_files.txt";
-foreach (@join) {
-    print JOIN $_;
+foreach (@diff) {
+    chomp;
+    if (exists $time_files{$_}) {
+        say JOIN "$time_files{$_}\t\t$_";
+    }
 }

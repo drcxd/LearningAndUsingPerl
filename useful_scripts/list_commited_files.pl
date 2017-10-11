@@ -12,38 +12,37 @@ use strict;
 use warnings;
 use 5.010;
 
-die "Usage: ./list_commited_files.pl [path-to-file-or-directory] [user]" if @ARGV != 2;
+die "Usage: ./list_commited_files.pl [path-to-file-or-directory] [user]\n" if @ARGV != 2;
 
-my $path = $ARGV[0];
-my $user_name = $ARGV[1];
-my @commited_files;
+# my $path = $ARGV[0];
+# my $user_name = $ARGV[1];
+my ($path, $user_name) = @ARGV;
+my %commited_files;
 say "reading subversion log...";
 my @version_numbers = `svn log $path | grep $user_name`;
 say "fetching commited file names...";
 foreach (@version_numbers) {
-    m/^r(\d+)/;
-    if (defined $1) {
-        my @single_commit_files = `svn diff -c $1 --summarize $path`;
-        foreach (@single_commit_files) {
-            m/^[A-Z](.*)$/;
-            push @commited_files, $1 unless $1 ~~ @commited_files;
+    m/\Ar(?<version>\d+)/;
+    my $version = $+{version};
+    m/ (?<time>\d+-\d+-\d+ \d+:\d+:\d+) /;
+    my $time = $+{time};
+    my @single_commit_files = `svn diff -c $version --summarize $path`;
+    foreach (@single_commit_files) {
+        m!/(?<filename>\w+\.(:?cpp|h))!;
+        if (defined $+{filename}) {
+            my $filename = $+{filename};
+            if (exists $commited_files{$filename}) {
+                ;
+            } else {
+                $commited_files{$filename} = $time;
+            }
         }
     }
 }
-say "cutting off path...";
-foreach (@commited_files) {
-    chomp;
-    # my @path_ingredient = split /\//, $_;
-    # $_ = $path_ingredient[$#path_ingredient];
-    m/\/([[:alpha:]]*\.[ch]p?p?)/;
-    # die "the line uncaptured is $_" unless defined $1;
-    $_ = $1 if defined $1;
-}
-say "sorting file names...";
-@commited_files = sort @commited_files;
-open RESULT_FILE, '>commited_files.txt';
+
+open RESULT_FILE, '>', 'commited_files.txt';
 say "writing result to commited_files.txt";
-foreach (@commited_files) {
+foreach (sort keys %commited_files) {
     chomp;
-    say RESULT_FILE $_;
+    say RESULT_FILE "$commited_files{$_}\t\t\t$_";
 }

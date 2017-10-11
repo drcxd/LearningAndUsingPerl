@@ -15,9 +15,6 @@ my $path2 = $ARGV[1];
 my @raw_input = `diff -q $path1 $path2`;
 my $count = 0;
 foreach (@raw_input) {
-    # my @ingredient = split /\//, $_;
-    # $_ = $ingredient[$#ingredient];
-    # print $_;
     chomp;
     say $1 if m/([[:alpha:]]+\.(?:cpp|h))/;
 }
