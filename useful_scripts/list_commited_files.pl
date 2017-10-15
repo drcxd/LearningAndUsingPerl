@@ -24,6 +24,7 @@ say "fetching commited file names...";
 foreach (@version_numbers) {
     m/\Ar(?<version>\d+)/;
     my $version = $+{version};
+    # say "$version";
     m/ (?<time>\d+-\d+-\d+ \d+:\d+:\d+) /;
     my $time = $+{time};
     my @single_commit_files = `svn diff -c $version --summarize $path`;
