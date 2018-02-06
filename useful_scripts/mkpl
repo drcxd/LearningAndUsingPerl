@@ -1,4 +1,4 @@
-#!/usr/local/bin/perl
+#!/bin/perl
 
 # This program just generate the usual header I will use when writing
 # a new perl program with the given name.
@@ -13,7 +13,7 @@ my $file_name = $ARGV[0];
 
 open TO_MAKE, "> $file_name";
 
-say TO_MAKE '#!/usr/local/bin/perl';
+say TO_MAKE '#!/bin/perl';
 say TO_MAKE '';
 say TO_MAKE 'use strict;';
 say TO_MAKE 'use warnings;';

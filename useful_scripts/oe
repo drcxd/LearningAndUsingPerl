@@ -1,0 +1,20 @@
+#!/bin/perl
+
+use strict;
+use warnings;
+use 5.010;
+
+if (@ARGV > 0) {
+    my $target_dir = shift @ARGV;
+    system("explorer $target_dir");
+} else {
+    my $path = `PWD`;
+    if ($path =~ m#/c|d\b#) {
+        $path =~ s#\A.*/(c|d)\b#$1:\\#;
+        $path =~ s#/#\\\\#g;
+    } else {
+        $path =~ s#/#\\\\#g;
+        $path = "D:\\cygwin64" . $path;
+    }
+    system("explorer $path");
+}
