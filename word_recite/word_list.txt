@@ -272,7 +272,7 @@ relingquish
 v 放弃，撤回
 instigate
 v 煽动，怂恿
-waire
+waive
 v 放弃，免除
 revere
 v 尊重
@@ -368,8 +368,6 @@ misnomer
 n 用词不当
 euphemism
 n 婉言，委婉的说法
-platitude
-n 陈词滥调
 discrepancy
 n 矛盾，差异
 prevalent <= prevail
@@ -948,8 +946,6 @@ stingy
 adj 小气的
 parsimonious
 adj 小气的
-paltry
-adj 微小的，微不足道的
 pristine
 adj 未开发的，原始的，全新的
 parochial
@@ -1040,8 +1036,6 @@ aggregate
 adjv 总计，合计（的）
 bountiful
 adj 大量的，丰富的
-atypical
-adj 翻唱的
 resonate
 v 产生共鸣
 primate
@@ -1084,8 +1078,6 @@ recount
 v 叙述
 inflate
 v 吹捧，膨胀，使充气
-fastidious
-adj 一丝不苟的，严谨的
 improvise
 v 即兴创作
 fallacious
@@ -1412,8 +1404,6 @@ compunction
 n 内疚，懊悔
 tenable
 adj 说得过去的，有条理的
-subversive
-adj 颠覆性的
 magnify
 v 放大，扩大
 evenhanded
@@ -1422,8 +1412,6 @@ spirited
 adj 坚定的，英勇的
 scathe
 v 严厉批评，损伤
-amplify
-v 放大，充实
 stratify
 v 分层
 hierarchical
@@ -1440,8 +1428,6 @@ abstemious
 adj 有节制的，节俭的
 surreptitious
 adj 鬼鬼祟祟的，秘密的
-insouciant
-adj 漫不经心的
 inductive
 adj 归纳的，诱导的
 synopsis(复数synopses)
@@ -1851,7 +1837,7 @@ adj 圆滑的，得体的
 atypical
 adj 反常的
 concomitant
-adj 相伴的n 同时发生的事
+adj 相伴的 n 同时发生的事
 sweeping
 adj 笼统的，全面的
 penalty
@@ -1970,7 +1956,7 @@ outmoded
 adj 过时的
 slapdash
 adj 潦草的，草率的，匆促的
-emargo
+embargo
 nv 贸易禁止
 aberrant
 adj 反常的，异常的
@@ -2013,7 +1999,7 @@ n 侵入，进入
 disguise
 v 伪装
 bridle
-v 约束，舒服
+v 约束，束缚
 paragon
 n 典范，完人
 comprehensive
@@ -2060,8 +2046,6 @@ purview
 n 权限，范围
 hail
 v 歌颂
-acclaim
-v 赞扬
 meander
 v 蜿蜒而行，漫步
 heft
