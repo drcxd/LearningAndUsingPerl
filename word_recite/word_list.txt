@@ -2054,3 +2054,93 @@ circuitous
 adj 迂回的，绕道的
 strenuous
 adj 费力的
+exiguous
+adj 微小的，稀少的，不够的
+insipid
+adj 乏味的，平淡的，干巴巴的
+infectious
+adj 传染性的，有传染力的
+captious
+adj 吹毛求疵的，挑剔的
+pathological
+adj 不理智的，病态的
+advertent
+adj 注意的，小心的
+hew
+v 遵守
+contest
+n 比赛 v 争辩，提出异议
+propose
+v 提出，求婚，打算
+compound
+v 合成 adj 混合的 n 混合物
+proscriptive
+adj 禁止的，剥夺人权的
+pertinacity
+n 顽固
+glut
+n 供应过剩
+revival
+n 复兴
+modicum
+n 少量
+sleazy
+adj 肮脏的，低劣的，堕落的
+sordid
+adj 卑鄙的，无耻的，肮脏的
+senesce
+v 开始衰老
+decrepit
+adj 衰老的，破旧的
+ennui
+n 无聊，厌倦
+vitality
+n 活力，生命力
+trumpet
+v 宣扬，鼓吹 n 小号
+thrift
+n 节俭，节约
+topple
+v 打倒，推翻，颠覆
+benevolent
+adj 慈善的，仁慈的
+formidable
+adj 令人敬畏的，可怕的
+intrude
+v 闯入，侵入，打扰，扰乱
+stalemate
+v 相持 n 僵局
+setback
+n 挫折，阻碍
+reconcile
+v 调和，使和谐一致
+disdain
+nv 蔑视，鄙视
+satiate
+v 满足 adj 吃饱的，满足的
+hostility
+n 敌意，对抗
+civic
+adj 城市的，市民的
+violate
+v 违反，亵渎
+reparation
+n 补偿，赔偿
+pretext
+n 借口，托辞
+precocity
+n 早熟，早成
+serendipity
+n 意外发现珍品的运气或本领
+countenance
+n 脸色 v 支持，赞成
+hefty
+adj 大而重的，可观的
+polymath
+n 博学大师
+congruous
+adj 一致的，全等的
+fraught
+adj 充满...的，令人担忧的
+check
+v 抑制
