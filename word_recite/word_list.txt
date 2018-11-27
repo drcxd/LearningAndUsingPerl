@@ -2054,3 +2054,29 @@ circuitous
 adj 迂回的，绕道的
 strenuous
 adj 费力的
+even-tempered
+adj 平和的，稳重的
+scrupulous
+adj 仔细的，细致的
+mendacity
+n 撒谎，捏造
+feasible
+adj 可行的，行得通的
+genealogy
+n 家谱学，家谱
+dismiss
+v 解雇，解散，驳回
+convict
+v 定罪
+conviction
+n 定罪，坚信
+ridicule
+nv 嘲笑，奚落
+ambivalent
+adj 矛盾情绪的
+far cry
+n 天壤之别
+nurturant
+adj 抚养的，养育的
+rattle
+v 使紧张
