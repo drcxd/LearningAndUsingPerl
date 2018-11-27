@@ -2170,3 +2170,101 @@ fraught
 adj 充满...的，令人担忧的
 check
 v 抑制
+abstruse
+adj 难解的，深奥的
+suspicious
+adj 多疑的，猜疑的，疑心的
+obtuse
+adj 迟钝的，愚蠢的
+deem
+v 认为，看作
+perennial
+adj 长久的，持续的
+squander
+nv 浪费，挥霍
+suspense
+n 悬念，焦虑
+deflate
+v 放气，使...泄气
+eclectic
+adj 不拘一格的，兼收并蓄的
+cajole
+v 哄骗，劝诱
+coaxe
+v 诱骗
+conceive
+v 构想，设想
+camouflage
+v 伪装，掩饰
+demur
+n 反对 v 表示反对，提出异议
+fusty
+adj 过时的，腐臭的
+bemuse
+v 使着迷，使发呆
+converge
+v 集中，汇集
+evocative
+adj 引起记忆的，唤起感情的
+modulate
+v 调整，调节
+commensurate
+adj 相称的
+excavate
+v 挖掘，发掘
+grind
+v 碾碎，磨碎
+milieu
+n 社会环境，社会背景
+corrosive
+adj 腐蚀性的
+patriot
+n 爱国者 adj 爱国的
+prominence
+n 突出，重要，卓越
+supremacy
+n 至高无上，最高地位
+muddle
+nv 混淆，困惑
+envisage
+v 设想，想象，展望
+expedient
+n 权宜之计
+jejune
+adj 枯燥无味的
+pertinent
+adj 有关的，恰当的
+offish
+adj 冷淡的，冷漠的
+jockey
+v 运用手段谋取
+disparage
+v 贬低，轻视
+prolix
+adj 冗长的，啰嗦的
+sophist
+n 诡辩者
+pedant
+n 书呆子，迂腐之人
+quibbler
+n 讲双关语的人
+artificial
+adj 人工的，假的
+totemic
+adj 图腾的
+protean
+adj 多变的，易变的
+emblematic
+adj 标志的，象征的
+relent
+v 变温和，变宽厚，终于答应，不再拒绝
+lament
+n 挽歌，痛惜，对...感到悲痛
+poignant
+adj 痛苦的，深刻的，辛辣的，尖锐的
+boisterous
+adj 热闹的，充满活力的
+sanity
+n 理智，精神健全
+cede
+v 割让，转让
