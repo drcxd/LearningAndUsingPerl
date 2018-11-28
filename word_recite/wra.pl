@@ -4,10 +4,12 @@ use strict;
 use warnings;
 use 5.010;
 use List::Util qw(shuffle);
+use Term::ReadKey;
 
 die "Usage: perl word_recite_advanced.pl [file_name]\n" unless @ARGV == 1;
 
 my $file_name = $ARGV[0];
+my $key;
 
 open WORDS, "<", $file_name;
 
@@ -35,24 +37,30 @@ for (@random_keys)
 {
     $count++;
     print $_;    
-    print "$count/$total";
-    <STDIN>;
+    say "$count/$total";
+    ReadMode('cbreak');
+    $key = ReadKey(0);
+    ReadMode('normal');    
     print $word_hash{$_};
-    my $reply = <STDIN>;
-    if ($reply =~ m/y/)
+    ReadMode('cbreak');
+    $key = ReadKey(0);
+    ReadMode('normal');    
+    if ($key =~ m/r/)
     {
         say "word recorded!";
         push @forget_list, $_;
     }
+    print "\n";
 }
 
-print("Do you want to exercise the forgetting words?");
-my $reply = <STDIN>;
-die "End\n" unless $reply =~ m/y/;
+print("Do you want to exercise the forgetting words?\n");
+ReadMode('cbreak');
+$key = ReadKey(0);
+ReadMode('normal');
+die "End\n" unless $key =~ m/y/;
 
 while (@forget_list != 0 || @exchange_list != 0)
 {
-    my $reply;
     if (@forget_list != 0)
     {
         $total = @forget_list;
@@ -62,20 +70,27 @@ while (@forget_list != 0 || @exchange_list != 0)
         {
             ++$count;
             print $_;
-            print "$count/$total";
-            <STDIN>;
+            say "$count/$total";
+            ReadMode('cbreak');
+            $key = ReadKey(0);
+            ReadMode('normal');    
             print $word_hash{$_};            
-            $reply = <STDIN>;
-            if ($reply =~ m/y/)
+            ReadMode('cbreak');
+            $key = ReadKey(0);
+            ReadMode('normal');    
+            if ($key =~ m/r/)
             {
-                say "word recorded!\n";
+                say "word recorded!";
                 push @exchange_list, $_;
             }
+            print "\n";
         }
         @forget_list = ();
-        print("Do you want to exercise the forgetting words?");
-        $reply = <STDIN>;
-        die "End\n" unless $reply =~ m/y/;
+        print("Do you want to exercise the forgetting words?\n");
+        ReadMode('cbreak');
+        $key = ReadKey(0);
+        ReadMode('normal');    
+        die "End\n" unless $key =~ m/y/;
     }
     else
     {
@@ -86,19 +101,26 @@ while (@forget_list != 0 || @exchange_list != 0)
         {
             ++$count;
             print $_;
-            print "$count/$total";
-            <STDIN>;
+            say "$count/$total";
+            ReadMode('cbreak');
+            $key = ReadKey(0);
+            ReadMode('normal');    
             print $word_hash{$_};            
-            $reply = <STDIN>;
-            if ($reply =~ m/y/)
+            ReadMode('cbreak');
+            $key = ReadKey(0);
+            ReadMode('normal');    
+            if ($key =~ m/r/)
             {
                 say "word recorded!";
                 push @forget_list, $_;
             }
+            print "\n";
         }
         @exchange_list = ();
-        print("Do you want to exercise the forgetting words?");
-        $reply = <STDIN>;
-        die "End\n" unless $reply =~ m/y/;
+        print("Do you want to exercise the forgetting words?\n");
+        ReadMode('cbreak');
+        $key = ReadKey(0);
+        ReadMode('normal');    
+        die "End\n" unless $key =~ m/y/;
     }
 }
