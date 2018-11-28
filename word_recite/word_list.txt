@@ -2304,3 +2304,71 @@ convulsion
 n 抽搐，动乱，骚动
 perspicacious
 adj 敏锐的，有洞察力的，精辟的
+pandemonium
+n 骚动
+denounce
+v 谴责，指责
+anatomize
+v 解剖，分析
+explicate
+v 详细解释
+unerappreciated
+adj 不受重视的，未得到正确评价的
+exaggerate
+v 夸大，夸张
+unexceptional
+adj 乏味的，平常的，不突出的，普通的
+superficial
+adj 肤浅的
+far-fetched
+adj 难以置信的，牵强的
+verity
+n 真理，客观事实
+disinformation
+n 假消息
+profligacy
+n 放荡，堕落，荒淫，挥霍
+self-interest
+n 自私自利
+reprehensible
+adj 不道德的，应受指责的
+conscionable
+adj 正当的，正直的
+incorporate
+v 包含，吸收
+pernicious
+adj 有害的，致命的，恶性的
+obscure
+adj 无名的，费解的 v 使模糊，使费解
+renown
+n 名誉，声望
+rehash
+v 炒冷饭
+postulate
+nv 假设
+squelch
+nv 镇压
+insurrection
+n 起义，暴动，叛乱
+expatriate
+n 侨民 v 移居国外
+qualm
+n 顾虑，疑虑
+not least
+尤其是
+scornful
+adj 轻蔑的，鄙夷的
+snobbish
+adj 势利的，自命不凡的
+deferential
+adj 恭敬的，谦让的
+slump
+nv 衰退，猛跌
+wily
+adj 狡猾的，诡计多端的
+breed
+v 饲养，孕育，导致 n 品种
+demarcate
+v 标出...的界线；给...划界
+panoply
+n 巨大的数量
