@@ -57,6 +57,7 @@ while (@forget_list != 0 || @exchange_list != 0)
     {
         $total = @forget_list;
         $count = 0;
+        @forget_list = shuffle @forget_list;
         for (@forget_list)
         {
             ++$count;
@@ -80,6 +81,7 @@ while (@forget_list != 0 || @exchange_list != 0)
     {
         $total = @exchange_list;
         $count = 0;
+        @exchange_list = shuffle @exchange_list;
         for (@exchange_list)
         {
             ++$count;
