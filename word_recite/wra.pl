@@ -5,7 +5,11 @@ use warnings;
 use 5.010;
 use List::Util qw(shuffle);
 
-open WORDS, "<", "word_list.txt";
+die "Usage: perl word_recite_advanced.pl [file_name]\n" unless @ARGV == 1;
+
+my $file_name = $ARGV[0];
+
+open WORDS, "<", $file_name;
 
 my %word_hash;
 

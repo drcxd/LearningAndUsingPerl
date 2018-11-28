@@ -2268,3 +2268,39 @@ sanity
 n 理智，精神健全
 cede
 v 割让，转让
+prodigy
+n 天才，神童
+dilettante
+adj 业余的，一知半解的
+philistine
+adj 市侩的，没有文化教养的
+delineate
+v 描绘，叙述，勾画
+accommodate
+v 适应，提供住宿
+tout
+v 吹捧，标榜，推销
+discordance
+n 不一致，不和谐
+quackery
+n 骗术，江湖郎中，庸医行径
+cronyism
+n 任人唯亲
+probity
+n 正直，诚实
+dissemble
+v 掩饰
+rectitude
+n 公正，正直，诚实
+duplicity
+n 欺骗
+exorbitance
+n 过高，过分，混乱，越轨
+affluence
+n 富裕，丰富
+peril
+n 严重危险，祸害，险情
+convulsion
+n 抽搐，动乱，骚动
+perspicacious
+adj 敏锐的，有洞察力的，精辟的
