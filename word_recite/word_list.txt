@@ -1301,7 +1301,7 @@ v 排出，赶走
 oust
 v 驱逐
 sanction
-n 制裁，批准，认可
+n 制裁，批准 v 准许，惩罚
 nocuous
 adj 有害的，有毒的
 tenuous
@@ -2372,3 +2372,73 @@ demarcate
 v 标出...的界线；给...划界
 panoply
 n 巨大的数量
+corollary
+n 必然的结果
+adjunct
+n 附件
+salubrious
+adj 环境宜人的，清洁而有益健康的
+callow
+adj 幼稚的
+bookish
+adj 书呆子气的，学究的
+mediate
+v 调解，调停 adj 间接的，中间的
+flush
+v 冲洗 nv 脸红 adj 富有，完全齐平
+perverse
+adj 执拗的，任性的
+tedium
+n 单调乏味，冗长，罗嗦
+reprehend
+v 责难，申斥
+renounce
+v 否认，放弃
+compartmentalize
+v 划分，分隔
+prune
+v 精简，删去
+wayward
+adj 难以控制的，任性的，倔强的
+urbane
+adj 文雅的，有礼貌的，彬彬有礼的
+wherewithal/wherewith
+n 必要的财力物力
+panache
+n 炫耀，夸饰
+extravagant
+adj 奢侈的，挥霍的
+scrutiny
+n 仔细检查
+deter
+v 阻止，制止
+mainstay
+n 支柱，中流砥柱
+sever
+v 隔断，断绝，切开，切下
+impute
+v 归咎于，归因于
+remunerate
+v 酬劳，付报酬给
+ramshackle
+adj 摇摇欲坠的，破烂不堪的
+periphery
+n 外围，边缘，周围
+concise
+adj 简明的，简练的
+introspective
+adj 好内省的，好反省的
+thorough
+adj 完全的，细致的
+perfidious
+adj 不可信任的，背叛的，不忠的
+strew strewed strewn
+v 撒，播，散播，点缀
+mockery
+n 嘲弄，蔑视，嘲讽
+sdupefy
+v 使惊讶，使神志不清
+stupefaction
+n 麻醉，昏迷，恍惚
+assiduous
+adj 兢兢业业的，勤勤恳恳的
