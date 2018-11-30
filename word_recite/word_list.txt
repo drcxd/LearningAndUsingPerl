@@ -2442,3 +2442,75 @@ stupefaction
 n 麻醉，昏迷，恍惚
 assiduous
 adj 兢兢业业的，勤勤恳恳的
+desertion
+n 遗弃，逃走，荒废
+arrest
+v 阻止，中止，逮捕
+intrepid
+adj 勇敢的，无畏的
+soothe
+v 抚慰，安慰，减轻，劝慰
+foreordain
+v 预先注定
+stringent
+adj 严格的，严厉的，紧缩的，短缺的
+shrill
+v 尖叫
+porous
+adj 多孔的，透水的，透气的
+clog
+v 堵塞，阻塞，妨碍，影响 n 木屐
+permeable
+adj 可渗透的，可渗入的
+membrane
+n 膜
+immaterial
+adj 无关紧要的，非物质的
+prophylactic
+adj 预防疾病的
+impeachable
+adj 招致控告的
+astringent
+adj 尖刻的，辛辣的，
+hyperbolic
+adj 夸张的
+rival
+v 匹敌，比得上 adj 竞争的 n 竞争对手
+unrivalled
+adj 无与伦比的，无双的
+infelicity
+n 不幸，不得体，不吉利
+putative
+adj 推定的，假定的，公认的
+solidarity
+n 团结，齐心协力
+camaraderie
+n 友情，同志情谊
+belligerence
+n 好战性，好斗性
+pugnacity
+n 好斗
+deficit
+n 赤字，亏空
+predicament
+n 困境，窘境
+demonize
+v 妖魔化，恶魔化
+cerebral
+adj 大脑的，理智的
+off-putting
+adj 令人烦恼的，令人讨厌的
+nuanced
+adj 细微的，有细微差别的
+obtrusive
+adj 扎眼的，显眼的，过分炫耀的
+excuberance
+n 丰富，充沛
+obduracy
+n 执拗，冷酷
+adulate
+v 奉承
+revile
+v 辱骂，斥责
+succinct
+adj 简明的，言简意赅的
