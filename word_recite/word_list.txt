@@ -2312,7 +2312,7 @@ anatomize
 v 解剖，分析
 explicate
 v 详细解释
-unerappreciated
+underappreciated
 adj 不受重视的，未得到正确评价的
 exaggerate
 v 夸大，夸张
@@ -2514,3 +2514,111 @@ revile
 v 辱骂，斥责
 succinct
 adj 简明的，言简意赅的
+cavalier
+n 骑士 adj 漫不经心的，不在乎的 v 对女子有骑士风度，态度傲慢
+wistful
+adj 伤感的，愁闷的，留恋的
+ungracious
+adj 不客气的，粗野的，没有吸引力的
+valedictory
+n 告别演说 adj 告别的
+gracious
+adj 有礼貌的，谦和的
+unexampled
+adj 前所未有的，例外的
+vituperate
+v 责骂，辱骂
+approbate
+v 批准，认可
+entail
+v 需要，牵扯，使必要
+vehement
+adj 感情强烈的，愤怒的
+culpability
+n 有罪
+atrocious
+adj 残暴的，糟透的
+tether
+v 栓，束缚
+impediment
+n 障碍，阻碍
+counterweigh
+v 使平衡，抵消
+comprehend
+v 理解，领悟
+concert
+v 协商，合订计划
+disconcert
+v 使不安，使困惑，使尴尬
+preordain
+v 命中注定
+demise
+n 死亡，逝世 v 遗赠，转让
+transmission
+n 传输，传播
+jibe
+nv 嘲讽，嘲弄
+aspersion
+n 中伤，诽谤
+whim
+n 幻想，冲动
+slur
+nv 诽谤，诋毁
+efface
+v 消除，抹去
+wholesale
+adj 大规模的
+entreat
+v 恳求，乞求
+absolve
+v 宣告无罪，免除罪责
+plodding
+adj 单调乏味的
+plod
+v 艰难地行走
+nimble
+adj 灵活的，机灵的
+consilience
+n 一致，符合
+arrogant
+adj 傲慢的，自大的
+narcissistic
+adj 自恋的
+boon
+n 恩惠 adj 愉快的
+buttress
+v 支持
+vacuous
+adj 空洞的，空虚的
+mirth
+n 欢乐，欢笑
+jovial
+adj 快乐的，愉快的
+undertake
+v 承担，从事
+coddle
+v 娇惯，溺爱
+mollify
+v 使平静，抚慰
+delude
+v 欺骗，哄骗
+degrade
+v 降解，降低，侮辱
+chic
+adj 时髦的，优雅的，雅致的
+penetrate
+v 渗透，进入，穿过，看透
+plagiary
+n 剽窃
+pretense
+n 借口，伪装，假装
+murky
+adj 浑浊的，昏暗的
+grimy
+adj 肮脏的，污秽的
+pellucid
+adj 清澈的，清晰的
+tranquil
+adj 平静的
+acute
+adj 严重的，急性的，灵敏的，敏锐的
