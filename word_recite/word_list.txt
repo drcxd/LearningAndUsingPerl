@@ -2622,3 +2622,23 @@ tranquil
 adj 平静的
 acute
 adj 严重的，急性的，灵敏的，敏锐的
+veto
+v 否决
+constitution
+n 组成，宪法
+ratify
+v 正式批准，使正式生效
+inferior
+adj 较差的，下级的，劣等的
+hospitable
+adj 好客的
+segregate
+v 隔离，分隔
+principal
+n 代理人 adj 主要的，重要的
+finicky
+adj 挑剔的，苛刻的
+allegation
+n 指控
+specimen
+n 标本，样品

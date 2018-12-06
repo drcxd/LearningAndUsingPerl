@@ -45,7 +45,7 @@ for (@random_keys)
     ReadMode('cbreak');
     $key = ReadKey(0);
     ReadMode('normal');    
-    if ($key =~ m/r/)
+    if ($key =~ m/r/i)
     {
         say "word recorded!";
         push @forget_list, $_;
@@ -57,7 +57,7 @@ print("Do you want to exercise the forgetting words?\n");
 ReadMode('cbreak');
 $key = ReadKey(0);
 ReadMode('normal');
-die "End\n" unless $key =~ m/y/;
+die "End\n" unless $key =~ m/y/i;
 
 while (@forget_list != 0 || @exchange_list != 0)
 {
@@ -78,7 +78,7 @@ while (@forget_list != 0 || @exchange_list != 0)
             ReadMode('cbreak');
             $key = ReadKey(0);
             ReadMode('normal');    
-            if ($key =~ m/r/)
+            if ($key =~ m/r/i)
             {
                 say "word recorded!";
                 push @exchange_list, $_;
@@ -90,7 +90,7 @@ while (@forget_list != 0 || @exchange_list != 0)
         ReadMode('cbreak');
         $key = ReadKey(0);
         ReadMode('normal');    
-        die "End\n" unless $key =~ m/y/;
+        die "End\n" unless $key =~ m/y/i;
     }
     else
     {
@@ -109,7 +109,7 @@ while (@forget_list != 0 || @exchange_list != 0)
             ReadMode('cbreak');
             $key = ReadKey(0);
             ReadMode('normal');    
-            if ($key =~ m/r/)
+            if ($key =~ m/r/i)
             {
                 say "word recorded!";
                 push @forget_list, $_;
@@ -121,6 +121,6 @@ while (@forget_list != 0 || @exchange_list != 0)
         ReadMode('cbreak');
         $key = ReadKey(0);
         ReadMode('normal');    
-        die "End\n" unless $key =~ m/y/;
+        die "End\n" unless $key =~ m/y/i;
     }
 }
