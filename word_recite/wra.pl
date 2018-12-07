@@ -53,6 +53,14 @@ for (@random_keys)
     print "\n";
 }
 
+open BACKUP, ">", "${file_name}_review.txt";
+for (@forget_list)
+{
+    print BACKUP $_;
+    print BACKUP $word_hash{$_};    
+}
+close BACKUP;
+
 print("Do you want to exercise the forgetting words?\n");
 ReadMode('cbreak');
 $key = ReadKey(0);
