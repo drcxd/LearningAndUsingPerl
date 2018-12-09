@@ -244,7 +244,7 @@ denigrate
 v 贬低
 offset
 v 抵消
-sigularity
+singularity
 n 奇特，异常，奇怪
 notorious
 adj 臭名昭著的
@@ -967,7 +967,7 @@ v 辞职
 avid
 adj 热切的，渴望的
 debunk
-v 批判，驳斥
+v 批判，驳斥，拆穿
 resilient
 adj 有弹力的，可复原的
 transcendent
@@ -2351,7 +2351,7 @@ nv 镇压
 insurrection
 n 起义，暴动，叛乱
 expatriate
-n 侨民 v 移居国外
+n 侨民 v 移居国外，驱逐
 qualm
 n 顾虑，疑虑
 not least
