@@ -2642,3 +2642,21 @@ allegation
 n 指控
 specimen
 n 标本，样品
+mounting
+adj 上升的
+token
+adj 装样子的，敷衍的
+deft
+adj 灵巧的，熟练的
+shirk
+v 逃避，偷懒
+calamitous
+adj 灾难性的
+loathe
+v 厌恶
+portent
+n 预兆
+jargon
+n 行话，术语
+rash
+n 大量，众多
