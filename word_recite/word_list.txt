@@ -2688,3 +2688,45 @@ implore
 v 恳求，哀求
 economy
 n 节约，节省
+debase
+v 贬损，贬低
+distill
+v 蒸馏，提取精华
+modish
+adj 时髦的，流行的
+delicate
+adj 精致的，易碎的
+infallibility
+n 绝对正确
+discomfit
+v 使困惑，使尴尬
+florid
+adj 红润的，华丽的
+defamatory
+adj 污蔑的，诽谤的
+defamation
+n 诽谤，中伤
+calumnious
+adj 污蔑的
+inveigle
+v 诱骗，诱惑
+timorous
+adj 胆小的
+slander
+v 诋毁
+dispense with
+无需
+dubious
+adj 怀疑的
+caricature
+v 滑稽地描述，画成漫画
+dismantle
+v 分解，拆卸
+propagate
+v 传播，繁殖
+abrasive
+adj 侵蚀的
+picturesque
+adj 优美如画的
+apposite
+adj 合适的，恰当的
