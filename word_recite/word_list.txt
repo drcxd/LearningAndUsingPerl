@@ -2660,3 +2660,31 @@ jargon
 n 行话，术语
 rash
 n 大量，众多
+brazen
+adj 厚脸皮的
+objurgate
+v 骂
+vestigial
+adj 残留的，残余的
+vestige
+n 遗迹
+nascent
+adj 新生的，萌芽的
+pejorative
+adj 轻蔑的
+disquietude
+n 不安，忧虑
+aplomb
+n 沉着，镇定
+fringe
+adj 边缘的，外围的
+at odds with
+与...相抗争
+wanting
+adj 不足的
+wheedle
+v 哄
+implore
+v 恳求，哀求
+economy
+n 节约，节省
